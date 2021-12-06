@@ -1,0 +1,16 @@
+{
+  "request": {
+    "url": "/ws_proxy/soap/AGRSEngagementService_V18_2",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "matchesXPath" : "//customerid[text()='10106000250']"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "../__files/SoapResponse3.xml",
+    "headers": {
+      "Content-Type": "application/xml"
+    }
+  }
+}

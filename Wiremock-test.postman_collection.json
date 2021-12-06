@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "8c390d71-29b5-4ff8-8fcf-cfd21159b936",
+		"name": "Wiremock-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SimpleRestStub",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SimpleSoapStub",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ws_proxy/soap/AGRSEngagementService_V18_2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ws_proxy",
+						"soap",
+						"AGRSEngagementService_V18_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SoapStubWithXPathMatcher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n\t<s:Header>\r\n\t\t<h:AutHeader xmlns:h=\"http://edb.com/ws/WSCommon_v22\" xmlns=\"http://edb.com/ws/WSCommon_v22\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n\t\t\t<SourceApplication>SPV</SourceApplication>\r\n\t\t\t<DestinationApplication>CWSO3</DestinationApplication>\r\n\t\t\t<Function>AGRSEngagementService_V18_2.engagementRead</Function>\r\n\t\t\t<Version>18_2</Version>\r\n\t\t\t<ClientContext>\r\n\t\t\t\t<userid>y</userid>\r\n\t\t\t\t<credentials>x</credentials>\r\n\t\t\t\t<channel>BRA</channel>\r\n\t\t\t\t<orgid>3601</orgid>\r\n\t\t\t\t<orgunit>22420</orgunit>\r\n\t\t\t\t<customerid>10106000250</customerid>\r\n\t\t\t\t<locale xsi:nil=\"true\"/>\r\n\t\t\t\t<ip>127.0.0.1</ip>\r\n\t\t\t\t<item key=\"LogRef\" value=\"342bcb86-86c0-49c0-8dfa-a4e122e85b4c\"/>\r\n\t\t\t</ClientContext>\r\n\t\t</h:AutHeader>\r\n\t</s:Header>\r\n\t<s:Body xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n\t\t<engagementReadRequest xmlns=\"urn:srv.agr.enterprise.fs.evry.com:ws:engagement:v18_2\">\r\n\t\t\t<qualification>\r\n\t\t\t\t<customerNumber xmlns=\"urn:srv.agr.enterprise.fs.evry.com:domain:engagement:v18_2\">10106000250</customerNumber>\r\n\t\t\t\t<selfServiceKey xmlns=\"urn:srv.agr.enterprise.fs.evry.com:domain:engagement:v18_2\">\r\n\t\t\t\t\t<alias xmlns=\"urn:corews.enterprise.fs.evry.com:domain:common:v6\">10106000250</alias>\r\n\t\t\t\t\t<channel xmlns=\"urn:corews.enterprise.fs.evry.com:domain:common:v6\">INT</channel>\r\n\t\t\t\t</selfServiceKey>\r\n\t\t\t</qualification>\r\n\t\t</engagementReadRequest>\r\n\t</s:Body>\r\n</s:Envelope>\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/ws_proxy/soap/AGRSEngagementService_V18_2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ws_proxy",
+						"soap",
+						"AGRSEngagementService_V18_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SimpleSoapStub3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ws_proxy/soap/IFWSAccountNumberService_V15_2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ws_proxy",
+						"soap",
+						"IFWSAccountNumberService_V15_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
