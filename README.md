@@ -26,7 +26,7 @@ docker run -p 8080:8080 wiremock-test
  - Kjør `docker` kommandoene listet over for å bygge å kjøre docker imaget
  - Test ut Postman requestene
 
- ## Hvordan funker det
+ ## Hvordan virker det
 
  Wiremock docker imaget vårt inneholder alle filene vi har i `stubs` mappen. 
 
