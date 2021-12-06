@@ -1,6 +1,5 @@
 # Wiremock-test
 
-
 ## Forkunnskaper
 
 - Du bør kjenne litt til docker, kjøre en docker deamon på maskinen din. [Linux](https://docs.docker.com/engine/install/ubuntu/) - [Mac/Windows Docker Desktop](https://www.docker.com/products/docker-desktop)
@@ -37,3 +36,10 @@ docker run -p 8080:8080 wiremock-test
 
 ## SOAP matching
 Det brukes XPath for å gjøre litt lur XML matching slik at vi kan ha flere svar for samme endepunkt. Dette kan for eksempel brukes til å mocke ulike kunder sine mock-data.
+
+# Nyttige linker
+[Xpath tutorial - W3](https://www.w3schools.com/xml/xpath_intro.asp)
+
+[Wiremock - stubbing](http://wiremock.org/docs/stubbing/)
+
+[Wiremock - request matching](http://wiremock.org/docs/request-matching/)
