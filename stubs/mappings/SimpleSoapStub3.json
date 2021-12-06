@@ -1,0 +1,13 @@
+{
+  "request": {
+    "url": "/ws_proxy/soap/IFWSAccountNumberService_V15_2",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "../__files/SoapResponse2.xml",
+    "headers": {
+      "Content-Type": "application/xml"
+    }
+  }
+}
