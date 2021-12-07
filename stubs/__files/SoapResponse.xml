@@ -1,19 +1,6 @@
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Body>
-        <ns3:accountCreateResponse xmlns:ns14="urn:corews.enterprise.fs.evry.com:domain:common:v3"
-            xmlns:ns13="urn:corews.enterprise.fs.evry.com:domain:common:v6"
-            xmlns:ns12="urn:srv.dep.savings.fs.evry.com:domain:account:v19_2"
-            xmlns:ns11="urn:srv.dep.savings.fs.evry.com:domain:account:v19_1"
-            xmlns:ns10="urn:srv.dep.savings.fs.evry.com:domain:account:v18_1"
-            xmlns:ns9="urn:corews.enterprise.fs.evry.com:domain:common:v7"
-            xmlns:ns8="urn:srv.dep.savings.fs.evry.com:domain:alertcodes:v3"
-            xmlns:ns7="urn:srv.agr.enterprise.fs.evry.com:domain:fixedinterestagreement:v20_1"
-            xmlns:ns6="urn:srv.agr.enterprise.fs.evry.com:ws:fixedinterestagreement:v20_1"
-            xmlns:ns5="urn:srv.agr.enterprise.fs.evry.com:domain:fixedinterestagreement:v18_1"
-            xmlns:ns4="urn:enterprise.fs.evry.com:domain:common:v3"
-            xmlns:ns3="urn:srv.dep.savings.fs.evry.com:ws:account:v19_2"
-            xmlns:ns2="urn:srv.dep.savings.fs.evry.com:domain:account:v17_1"
-            xmlns="http://edb.com/ws/WSCommon_v22">
+        <ns3:accountCreateResponse>
             <ns4:ResponseState>
                 <ErrorCode>0</ErrorCode>
                 <Severity>0</Severity>

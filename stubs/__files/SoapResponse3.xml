@@ -1,6 +1,6 @@
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
 	<soap:Body>
-		<ns3:accountNumberAcquireResponse xmlns:ns10="urn:srv.mf.ifw.ihub.enterprise.fs.edb.com:domain:accountnumber:v15_1" xmlns:ns9="urn:srv.mf.ifw.ihub.enterprise.fs.edb.com:domain:accountnumber:v15_2" xmlns:ns8="urn:corews.enterprise.fs.edb.com:domain:common:v2" xmlns:ns7="urn:srv.agr.enterprise.fs.edb.com:ws:role:v15_1" xmlns:ns6="urn:srv.agr.enterprise.fs.edb.com:domain:role:v15_1" xmlns:ns5="urn:enterprise.fs.edb.com:domain:common:v1" xmlns:ns4="urn:srv.mf.ifw.ihub.enterprise.fs.edb.com:domain:accountnumber:v13_1" xmlns:ns3="urn:srv.mf.ifw.ihub.enterprise.fs.edb.com:ws:accountnumber:v15_2" xmlns:ns2="urn:corews.enterprise.fs.edb.com:domain:common:v1" xmlns="http://edb.com/ws/WSCommon_v21">
+		<ns3:accountNumberAcquireResponse>
 			<ns5:ResponseState>
 				<ErrorCode>0</ErrorCode>
 				<Severity>0</Severity>
