@@ -10,7 +10,9 @@ I dag brukes som regel et SoapUi prosjekt med mapping og response oppsett. De fl
 
 SoapUi har god støtte for WSDL filer som gjør det enkelt å mocke TietoEvry sine SOAP tjenester. Rest tjenester er tilsvarende lett å mocke.
 
-SoapUi høres egentlig helt fantastisk fint ut så langt?
+SoapUi høres egentlig helt fantastisk fint ut så langt? :see_no_evil:
+
+Men: :skull:
 - Prosjektfilen som definerer oppsettet er en XML-fil som er tilnærmet umulig å lese, alle WSDL filene blir inlinet inn i prosjektfilen, så den blir tusenvis av linjer lang.
   - Code-review er umulig
   - Endring av prosjekt utenfor GUI er vanskelig
